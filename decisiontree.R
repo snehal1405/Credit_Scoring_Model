@@ -145,7 +145,7 @@ ggplot(data=credit,
   scale_x_log10() +
   ggtitle("Histogram of loan amounts faceted by default") +
   facet_wrap(~default)
-------
+
 set.seed(1235) # make our results deterministic (useful for reproducing identical results over multiple runs)
 credit_randomised = credit[order(runif(nrow(credit))), ]
 # assert that we've not messed up the data:
