@@ -203,7 +203,7 @@ CrossTable(credit.test$default,
            dnn = c('actual default', 'predicted default'))
 
 
-error_cost = matrix(c(0, 5, 1, 0), nrow = 2) # this could be a bug in the book
+error_cost = matrix(c(0, 5, 1, 0), nrow = 2)
 error_cost
 
 
